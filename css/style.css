@@ -10,6 +10,7 @@
 .container {
     width: 1140px;
     margin: 0px auto;
+    position: relative;
 }
 
 .logo_img {
@@ -120,7 +121,7 @@
     text-transform: uppercase;
     text-align: center;
 }
-.waiting_line {
+.waiting_line,.finish_line {
     margin: 18px auto;
     width: 220px;
     border-top:7px solid #F9BF3B;
@@ -149,10 +150,12 @@
     text-align: center;
 }
 
+
+/* --------------optimization style -------------*/
+
 .optimization {
     min-height: 547px;
-    position: relative;
-    padding: 61px 0 74px 0;
+    padding: 107px 0px 77px 0px;
 }
 .optimization_content p {
     margin-top: 12px;
@@ -169,6 +172,7 @@
 }
 
 .optimization_header {
+    margin-top: 8px;
     text-align: center;
     font-style: normal;
     font-weight: 900;
@@ -180,7 +184,78 @@
 
 .woman_img {
     position: absolute;
-    top: 0px;
-    left:0px;
+    top:-48px;
+    left:-240px;
     z-index: -1;
 }
+
+/* --------------finish style -------------*/
+
+.finish_content h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #EFEFEF;
+}
+.finish{
+    padding-top: 86px;
+    padding-bottom: 68px;
+    background: url('../img/bg/second_bg.png') center center/cover no-repeat;
+}
+
+.finish_items {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish_item {
+    width:230px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EFEFEF;
+}
+
+.finish_item p {
+    margin-top: 25px;
+    text-align: center;
+}
+.finish_circle{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0px auto; 
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+    border-radius: 100%;
+}
+
+.bonus {
+    padding: 85px 0px 85px 0px;
+    min-height: 631px;
+    background: #EFEFEF;
+}
+.bonus_content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.bonus_img {
+}
+.bonus_desc {
+    text-align: center;
+    margin:45px 0px 51px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    color: #252525;
+}
+
+
