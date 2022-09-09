@@ -1,7 +1,9 @@
-/* reset-style */
-@import 'reset-style.css';
 
 /* --------------promo style -------------*/
+
+HTML {
+    font-family: 'Roboto';
+}
 .promo {
     background: url('../img/bg/main_bg.png') center center/cover no-repeat;
     min-height: 800px;
@@ -29,6 +31,8 @@
 }
 .promo_header h2 {
     text-align: center;
+    font-style: normal;
+    font-weight: 900;
 }
 .promo_header {
     text-transform: uppercase;
